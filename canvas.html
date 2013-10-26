@@ -13,13 +13,13 @@
 	<body onload="random_letter();">
 		<div data-role="page">
 			<header data-role="header" >
-				<a href="#" data-rel="back" data-icon="arrow-l" data-add-back-btn="true" data-icon="back">Retour</a>
-				<h1>- Dessiner -</h1>
+				<a href="#" data-rel="back" data-icon="arrow-l" data-add-back-btn="true" data-icon="back">Retornar</a>
+				<h1>- Desenhar -</h1>
 				<a href="progress.html#5" rel="external" data-ajax="false" data-icon="star">Scores</a>
 			</header>
 
 			<section data-role="content"> 
-				<H4 id="points">0 Point. Lance toi!</H4>
+				<H4 id="points">0 Ponto. Desenhe !</H4>
 				
 				<div id="container">
 					<canvas id="imageView" width="232" height="232">
@@ -30,13 +30,13 @@
 				<script type="text/javascript" src="scripts/canvas.js"></script>
 				<div id="popop">
 					<div data-role="popup" id="popupNon" data-theme="a" data-overlay-theme="a">
-						<p>Dommage... Essaie encore!<p>
+						<p>Não foi dessa vez ... Tente novamente, você consegue !<p>
 					</div>
 					<div data-role="popup" id="popupOui" data-theme="a" data-overlay-theme="a">
-						<p>Bien joué! 1 Point de plus!<p>
+						<p>Bom jogo! 1 Point de plus!<p>
 					</div>
 				</div>
-				<a href="#" onclick="img_update();" data-role="button" rel="external" data-ajax="false" >Valider</a>
+				<a href="#" onclick="img_update();" data-role="button" rel="external" data-ajax="false" >Validar</a>
 			</section>
 		</div>
 	</body>
