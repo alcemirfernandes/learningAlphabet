@@ -36,7 +36,7 @@ function loadGraph(id){
 	getValuesFromXml(tab,id);	
 	$('#graph').empty();
  		var plot1 = $.jqplot('graph', [tab],  {
-		      title:'Progression',
+		      title:'Progresso',
 		      gridPadding:{right:35},
 		      axes:{
 		        xaxis:{
@@ -62,18 +62,18 @@ function clearAll(){
 
 <body>
 <header data-role="header" >
-	<a href="#" data-rel="back" data-icon="arrow-l" data-add-back-btn="true">Retour</a>
-	<h1><span></span>- Progression -</h1>
-	<a href="#" data-icon="delete" onclick="clearAll();">Clear Data</a>
+	<a href="#" data-rel="back" data-icon="arrow-l" data-add-back-btn="true">Retornar</a>
+	<h1><span></span>- Progresso -</h1>
+	<a href="#" data-icon="delete" onclick="clearAll();">Limpar tudo</a>
 </header>
 
 <nav data-role="navbar">
 	<ul >	
-		<li><a href="#1" onclick="loadGraph(1);">Ecouter</a></li>
-		<li><a href="#2"  onclick="loadGraph(2);">Ordre Alphabétique</a></li>
-		<li><a href="#3"  onclick="loadGraph(3);">Majuscules</a></li>
-		<li><a href="#4"  onclick="loadGraph(4);">Minuscules</a></li>
-		<li><a href="#5"  onclick="loadGraph(5);">Dessiner</a></li>
+		<li><a href="#1"  onclick="loadGraph(1);">Ouvir</a></li>
+		<li><a href="#2"  onclick="loadGraph(2);">Ordem alfabética</a></li>
+		<li><a href="#3"  onclick="loadGraph(3);">Maiúsculas</a></li>
+		<li><a href="#4"  onclick="loadGraph(4);">Minúsculas</a></li>
+		<li><a href="#5"  onclick="loadGraph(5);">Desenhar</a></li>
 	</ul>
 	
 </nav>

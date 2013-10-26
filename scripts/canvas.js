@@ -600,27 +600,27 @@ function random_letter()
 			/*document.getElementById('letter').style.opacity = '0.5';*/
 			if(total==0)
 			{
-				document.getElementById("points").innerHTML = "0 Point... Essaie encore!";
+				document.getElementById("points").innerHTML = "0 Ponto... Tente novamente!";
 			}
 			else if(total==1)
 			{
-				document.getElementById("points").innerHTML = "1 Point! Mieux que rien!";
+				document.getElementById("points").innerHTML = "1 Ponto! Melhor que nada!";
 			}
 			else if(total<=5)
 			{
-				document.getElementById("points").innerHTML = total+" Points. Pas mal!";
+				document.getElementById("points").innerHTML = total+" Pontos. Nada mal!";
 			}
 			else if(total<=10)
 			{
-				document.getElementById("points").innerHTML = total+" Points! Super!";
+				document.getElementById("points").innerHTML = total+" Pontos! Super!";
 			}
 			else if(total<=20)
 			{
-				document.getElementById("points").innerHTML = total+" Points! Génial!!";
+				document.getElementById("points").innerHTML = total+" Pontos! Gênial!!";
 			}
 			else
 			{
-				document.getElementById("points").innerHTML = total+" Points! Extraordinaire!!!";
+				document.getElementById("points").innerHTML = total+" Pontos! Extraordinário!!!";
 			}
 			$("#popupNon").popup("open",{positionTo:"#imageView"});
 		}
@@ -632,27 +632,27 @@ function random_letter()
 			writeScoreToXml(5,getDateDuJour(),1);
 			if(total==0)
 			{
-				document.getElementById("points").innerHTML = "0 Point... Essaie encore!";
+				document.getElementById("points").innerHTML = "0 Ponto... Tente novamente!";
 			}
 			else if(total==1)
 			{
-				document.getElementById("points").innerHTML = "1 Point! Mieux que rien!";
+				document.getElementById("points").innerHTML = "1 Ponto! Melhor que nada!";
 			}
 			else if(total<=5)
 			{
-				document.getElementById("points").innerHTML = total+" Points. Pas mal!";
+				document.getElementById("points").innerHTML = total+" Pontos. Nada mal!";
 			}
 			else if(total<=10)
 			{
-				document.getElementById("points").innerHTML = total+" Points! Super!";
+				document.getElementById("points").innerHTML = total+" Pontos! Super!";
 			}
 			else if(total<=20)
 			{
-				document.getElementById("points").innerHTML = total+" Points! Génial!!";
+				document.getElementById("points").innerHTML = total+" Pontos! Gênial!!";
 			}
 			else
 			{
-				document.getElementById("points").innerHTML = total+" Points! Extraordinaire!!!";
+				document.getElementById("points").innerHTML = total+" Pontos! Extraordinário!!!";
 			}
 			$("#popupOui").popup("open",{positionTo:"#imageView"});
 			
